@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(9, 9, 9, 0.933);
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.search{
+    width: 700px;
+    margin: 50px auto;
+    display: flex;
+}
+input{
+    padding: 17px;
+    font-size: 18px;
+    border-radius: 12px 0 0 12px;
+    width: 540px;
+    border: 1px solid rgba(106, 106, 106, 0.05);
+    background-color: rgba(106, 106, 106, 0.05);
+    color: white !important;
+}
+input:focus{
+    outline: none;
+    border: 1px solid rgba(117, 117, 117, 0.591);
+    background-color: rgb(117, 117, 117, 0.591);
+}
+.btn{
+    background-color: rgb(161, 16, 16);
+    color: white;
+    font-size: 18px;
+    border:none;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+}
+.movieDetails{
+    width: 700px;
+    margin: 20px auto;
+    color: rgba(255, 255, 255, 0.889);
+    font-weight:500;
+    display: flex;
+    justify-content: space-between;
+}
+p span{
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.898);
+}
+#title{
+    margin-top: 0;
+}
